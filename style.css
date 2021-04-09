@@ -7,8 +7,9 @@ hr {
   margin: 3rem 0rem;
 }
 
-* {
+body {
   font-family: "Source Sans Pro", sans-serif;
+  margin: 0px;
 }
 
 .container {
@@ -112,3 +113,24 @@ hr {
 .ow {
   background-color: lightgray;
 }
+
+
+/* Footer */
+
+ 
+.footer{
+    background-color:darkgray;
+    padding: 2rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link{
+    color: white;
+}
+
+/* .footer ul{
+    padding-inline-start: 0px;
+
+} */
