@@ -105,6 +105,10 @@ body {
 
 /* Section */
 
+/* .section{
+    text-align: center;
+} */
+
 .section h3 {
   text-align: center;
   padding: 2rem;
@@ -112,6 +116,8 @@ body {
 
 .ow {
   background-color: lightgray;
+  padding: 10px;
+  text-align: center;
 }
 
 
