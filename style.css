@@ -82,3 +82,22 @@ hr {
 .navigation .active {
   font-weight: bolder;
 }
+
+/* Header */
+
+.hero {
+  padding: 2rem;
+}
+.hero .hero-img {
+  max-width: 500px;
+  display: block;
+  margin: auto;
+}
+
+.hero .hero-heading {
+  font-size: 2rem;
+  color: #6b7280;
+  font-weight: bolder;
+  text-align: center;
+  /* padding-top: 10px;; */
+}
