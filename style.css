@@ -101,3 +101,14 @@ hr {
   text-align: center;
   /* padding-top: 10px;; */
 }
+
+/* Section */
+
+.section h3 {
+  text-align: center;
+  padding: 2rem;
+}
+
+.ow {
+  background-color: lightgray;
+}
