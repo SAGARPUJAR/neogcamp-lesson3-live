@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap");
 
+:root {
+  --primary-color: #6366F1;
+}
+
 * {
   font-family: "Source Sans Pro", sans-serif;
 }
@@ -12,4 +16,26 @@
 .container-center {
   max-width: fit-content;
   margin: auto;
+}
+
+/* Links */
+
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+/* Primary link */
+.primary-link{
+    background-color:  var(--primary-color);
+    border-radius: 0.2rem;
+    color: white;
+}
+
+/* Secondary Links */
+
+.secondary-link{
+    color:  var(--primary-color);
+    border-radius: 0.2rem;
+    border: 1px solid var(--primary-color);
 }
